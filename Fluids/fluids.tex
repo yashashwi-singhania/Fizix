@@ -1,0 +1,52 @@
+\documentclass{article}
+\usepackage{amsfonts}
+\usepackage[utf8]{inputenc}
+
+\title{Fluids}
+\author{Yashashwi Singhania}
+\date{March 2022}
+
+\begin{document}
+
+\maketitle
+\begin{center}
+
+\section*{Statics}
+
+\end{center}
+
+\begin{itemize}
+\vfill
+\item $\Delta \vec{F} = p \cdot \Delta \vec{A}$
+\item $\rho = \frac{\Delta m}{\Delta V}$
+\item $B \footnote{Bulk's modulus}= - \frac{\Delta p}{{\Delta V}/V }$
+\item $\frac{\, dp}{\, dy} = - \rho g$
+\item $-\Delta p= \rho g \Delta h$
+\item $\frac{\, dp}{\, dy} = -\rho g$\\
+Since $p \propto \rho, \rho=\rho_{0} \cdot \frac{p}{p_{0}}$\\
+$\Rightarrow \frac{\, dp}{\, dy} = - g \rho_{0} \cdot \frac{p}{p_{0}}$ \\
+After integrating, $\ln \frac{p}{p_{0}} = - \frac{g\rho_{0}}{p_{0}} \cdot h$\\
+$\Rightarrow p=p_{0}e^{(g\rho_{0}/p_{0})h}$\footnote{Pressure Variation in Atmosphere}
+\item At same point on a fluid, pressure is same in all directions.
+\item In the \textbf{same liquid}, pressure will be same at all points at the same level \textbf{iff} their speed is same. (no other constraint except the above two.)
+\item $\frac{F_1}{A_1}=\frac{F_2}{A_2}$, in the same fluid		\footnote{Pascal's Law}
+\item $\Delta p = \pm \rho ax$, where $a$ is horizontal acceleration.\\
+Take $(+)$ when moving in opposite direction of acceleration and vice-versa.
+\item $\Delta p= \pm \rho g_{e}\footnote{effective g} h$, where $g_e = g\pm a$, $a$ is vertical acceleration of fluid.
+\item If the fluid is accelerated and has some acceleration $a_x,a_y$ then, 
+\begin{center}
+$\frac{\, dp}{\, dx}= -\rho a_x$\\
+$\frac{\, dp}{\, dy}= -\rho (g+a_y)$
+\end{center}
+\newpage
+\item $\Delta p= \pm \frac{p \omega^2 \Delta x^2}{2}$, in rotating fluids.
+\item A fluid rotating about the centroidal axis with angular velocity has the free surface in shape of a paraboloid.
+\item For a body floating equate weight and upthrust.
+\item If a container is at rest relative to ground or translating with some acceleration, then the hydrostatic pressure force acting over a \textbf{flat constant surface} is equal to \emph{total area $\times$ pressure at its geometric center}.
+\item Buoyant force : $F=V_i \rho_L g$.
+\item Buoyant force in accelerating liquids : $F=V\cdot\rho_L\cdot g_{eff}$, where $g_{eff}= \mid g \pm a \mid$
+
+
+\end{itemize}
+
+\end{document}
